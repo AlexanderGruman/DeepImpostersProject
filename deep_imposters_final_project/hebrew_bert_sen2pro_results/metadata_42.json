@@ -1,0 +1,22 @@
+{
+  "iteration": 42,
+  "pair_id": "42_יוסף דרנבורג אפרתי_VS_חיים נחמן ביאליק",
+  "author_A": "יוסף דרנבורג אפרתי",
+  "author_B": "חיים נחמן ביאליק",
+  "bert_model_name": "avichr/heBERT",
+  "sen2pro_style": "model uncertainty via MC Dropout only; no data augmentation",
+  "mc_samples": 15,
+  "segment_word_count": 50,
+  "batch_factor": 2,
+  "max_length": 128,
+  "freeze_bert": true,
+  "hidden_size": 768,
+  "input_dim": 1536,
+  "classifier": "Linear(input_dim -> 256) + ReLU + Dropout + Linear(256 -> 2)",
+  "prediction_used_for_style_signal": "P(class 1) = P(Author B)",
+  "regular_signal_saved": true,
+  "weighted_signal_saved": true,
+  "signal_used_for_fastdtw": "weighted",
+  "distance_method": "fastDTW over style signals",
+  "created_at": "2026-06-05T13:09:01.701397"
+}
