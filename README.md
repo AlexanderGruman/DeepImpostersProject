@@ -15,7 +15,7 @@ Keywords: Authorship attribution in Jewish texts, Natural Language Processing (N
 
 ## Authors & Academic Advisors
 - **Authors:** Alexander Gruman & Shlomo Zrihan
-- **Academic Advisors:** Dr. Zeev Volkovich & Dr. Renata Avros
+- **Academic Advisors:** Prof. Zeev Volkovich & Dr. Renata Avros
 - **Institution:** Software Engineering Department, Braude College of Engineering
 - **Project Code:** 26-1-R-19 (Final Project – Phase B)
 
